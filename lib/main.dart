@@ -119,7 +119,7 @@ class _TelaMapaState extends State<TelaMapa> {
             child: TextField(
               controller: _cepController,
               decoration: InputDecoration(
-                labelText: "Insira o CEP",
+                labelText: "Insira o CEP de Buscar",
                 hintText: "Ex: 59550000",
                 border: OutlineInputBorder(),
                 suffixIcon: IconButton(
